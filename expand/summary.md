@@ -6,3 +6,4 @@
 # Native Web Components vs. Framework
 
 # My Preference and Why
+> Web Components has better portability, thus is my preference.

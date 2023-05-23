@@ -7,7 +7,7 @@ class RecipeCard extends HTMLElement {
     super(); // Inheret everything from HTMLElement
 
     // A1. TODO - Attach the shadow DOM to this Web Component (leave the mode open)
-    let shadow = this.attachShadow({ mode: 'open' });
+    this.attachShadow({ mode: 'open' });
 
     // A2. TODO - Create an <article> element - This will hold our markup once our data is set
     let article = document.createElement('article');
